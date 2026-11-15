@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    All user-facing strings live here. The default locale of the app is Persian
+    (fa), and the whole layout is forced right-to-left.
+-->
+<resources>
+    <string name="app_name">فلش‌کارت بورس</string>
+
+    <!-- Bottom navigation -->
+    <string name="tab_study">مطالعه</string>
+    <string name="tab_manage">کارت‌ها</string>
+    <string name="tab_stats">آمار</string>
+
+    <!-- Shared actions -->
+    <string name="action_save">ذخیره</string>
+    <string name="action_cancel">انصراف</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_edit">ویرایش</string>
+    <string name="action_close">بستن</string>
+    <string name="action_back">بازگشت</string>
+    <string name="action_new_card">کارت جدید</string>
+    <string name="action_next_question">سؤال بعدی</string>
+    <string name="action_next_card">کارت بعدی</string>
+    <string name="action_restart">شروع دوباره</string>
+    <string name="action_import">درون‌ریزی</string>
+    <string name="action_export">برون‌ریزی</string>
+    <string name="loading">در حال بارگذاری…</string>
+
+    <!-- Study screen -->
+    <string name="study_title">مرور کارت‌ها</string>
+    <string name="score_correct">درست: %1$s</string>
+    <string name="score_wrong">نادرست: %1$s</string>
+    <string name="score_streak">زنجیره: %1$s</string>
+    <string name="question_buy">قیمت خرید این نماد چقدر است؟</string>
+    <string name="question_exit">قیمت خروج (فروش) این نماد چقدر است؟</string>
+    <string name="answer_correct">✔ درست بود</string>
+    <string name="answer_wrong">✘ نادرست بود</string>
+    <string name="answer_correct_price">پاسخ صحیح: %1$s تومان</string>
+    <string name="session_position">کارت %1$s از %2$s</string>
+    <string name="daily_progress">هدف امروز: %1$s از %2$s</string>
+    <string name="toggle_due">مرور امروز</string>
+    <string name="toggle_all">همه کارت‌ها</string>
+    <string name="cards_due_today">%1$s کارت آماده مرور</string>
+    <string name="no_due_cards">کارتی برای مرور امروز باقی نمانده</string>
+    <string name="session_finished_title">دور مطالعه تمام شد</string>
+    <string name="session_finished_body">درست: %1$s\nنادرست: %2$s\nدقت: %3$s</string>
+    <string name="empty_state_title">هنوز کارتی ثبت نشده</string>
+    <string name="empty_state_body">از تب «کارت‌ها» چند نماد اضافه کن تا مرور شروع شود.</string>
+
+    <!-- Card fields -->
+    <string name="field_symbol_name">نام نماد</string>
+    <string name="field_symbol_code">کد نماد (اختیاری)</string>
+    <string name="field_purchase">قیمت خرید</string>
+    <string name="field_exit">قیمت خروج</string>
+    <string name="field_stop_loss">حد ضرر (اختیاری)</string>
+    <string name="field_profit">درصد سود احتمالی</string>
+    <string name="field_entry_points">نقاط ورود</string>
+    <string name="field_exit_points">نقاط خروج</string>
+    <string name="field_notes">یادداشت</string>
+    <string name="field_last_updated">آخرین بروزرسانی</string>
+    <string name="field_box">جعبه مرور</string>
+    <string name="field_symbol_hint">مثلاً فولاد</string>
+    <string name="field_price_hint">مثلاً ۵۲۰۰</string>
+    <string name="field_price_helper">قیمت‌ها به تومان</string>
+    <string name="toman">تومان</string>
+    <string name="price_format">%1$s تومان</string>
+    <string name="percent_format">%1$s ٪</string>
+    <string name="value_not_set">—</string>
+    <string name="box_value">جعبه %1$s از %2$s</string>
+
+    <!-- Manage screen -->
+    <string name="manage_title">مدیریت کارت‌ها</string>
+    <string name="search_hint">جستجوی نماد…</string>
+    <string name="buy_exit_compact">خرید %1$s — خروج %2$s تومان</string>
+    <string name="manage_empty">کارتی پیدا نشد</string>
+    <string name="delete_dialog_title">حذف کارت</string>
+    <string name="delete_dialog_body">کارت «%1$s» حذف شود؟ این کار قابل بازگشت نیست.</string>
+    <string name="card_deleted">کارت حذف شد</string>
+    <string name="export_success">فایل برون‌ریزی ذخیره شد</string>
+    <string name="export_failed">ذخیره فایل ممکن نشد</string>
+    <string name="import_success">%1$s کارت درون‌ریزی شد</string>
+    <string name="import_success_with_skipped">%1$s کارت درون‌ریزی شد؛ %2$s مورد نامعتبر نادیده گرفته شد</string>
+    <string name="import_failed">درون‌ریزی ناموفق بود: %1$s</string>
+    <string name="import_empty_file">فایل خالی یا نامعتبر است</string>
+    <string name="json_file_name">bourse-flashcards.json</string>
+    <string name="card_count">%1$s کارت</string>
+
+    <!-- Edit screen -->
+    <string name="edit_title_new">کارت جدید</string>
+    <string name="edit_title_edit">ویرایش کارت</string>
+    <string name="error_name_required">نام نماد الزامی است</string>
+    <string name="error_name_duplicate">کارتی با این نام از قبل وجود دارد</string>
+    <string name="error_price_required">قیمت خرید و قیمت خروج باید عددی بزرگ‌تر از صفر باشند</string>
+    <string name="error_save_failed">ذخیره کارت ممکن نشد</string>
+    <string name="card_saved">کارت ذخیره شد</string>
+    <string name="card_not_found">کارت پیدا نشد</string>
+    <string name="profit_preview">سود احتمالی: %1$s</string>
+
+    <!-- Statistics screen -->
+    <string name="stats_title">آمار و پیشرفت</string>
+    <string name="stats_total_answers">کل پاسخ‌ها</string>
+    <string name="stats_accuracy">دقت کلی</string>
+    <string name="stats_correct">پاسخ درست</string>
+    <string name="stats_wrong">پاسخ نادرست</string>
+    <string name="stats_cards">کارت‌ها</string>
+    <string name="stats_per_symbol">دقت به تفکیک نماد</string>
+    <string name="stats_last_days">هفت روز اخیر</string>
+    <string name="stats_no_data">هنوز پاسخی ثبت نشده است.</string>
+    <string name="stats_no_symbols">برای دیدن دقت هر نماد، ابتدا چند کارت اضافه کن.</string>
+    <string name="answered_count">%1$s پاسخ</string>
+    <string name="no_answers">بدون پاسخ</string>
+    <string name="accuracy_value">%1$s ٪</string>
+
+    <!-- Notes -->
+    <string name="sample_note">داده‌های نمونه صرفاً برای تمرین‌اند و توصیه سرمایه‌گذاری نیستند.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The app is Persian-only, so every supported locale resolves to Persian. -->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="fa" />
+    <locale android:name="fa-IR" />
+</locale-config>
